@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'splash_screen_2.dart' as s2;
+import 'splash_screen_3.dart' as s3;
 
-class SplashScreen1 extends StatelessWidget {
-  const SplashScreen1({super.key});
+class SplashScreen2 extends StatelessWidget {
+  const SplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +85,7 @@ class SplashScreen1 extends StatelessWidget {
                     // Todo: call next page — navigate to SplashScreen2
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => s2.SplashScreen2()),
+                      MaterialPageRoute(builder: (context) => s3.SplashScreen3()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
