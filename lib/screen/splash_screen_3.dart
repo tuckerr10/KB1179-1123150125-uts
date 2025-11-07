@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'splash_screen_3.dart' as s3;
+import 'login.dart' as login;
 
 class SplashScreen3 extends StatelessWidget {
   const SplashScreen3({super.key});
@@ -34,7 +34,7 @@ class SplashScreen3 extends StatelessWidget {
             ), 
             SizedBox(height: 10),
             Text(
-              "Jangan lupa membawa dompet digital\n   Ketika kamu belanaja online ?" ,
+              "Jangan lupa membawa dompet digital\n   Ketika kamu belanaja online, oke ?" ,
               style: TextStyle(
                 fontSize: 12.0,
                 fontWeight: FontWeight.bold,
@@ -51,25 +51,25 @@ class SplashScreen3 extends StatelessWidget {
                   width: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
+                    color: const Color.fromARGB(255, 247, 87, 140),
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  height: 10,
+                  width: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: const Color.fromARGB(255, 247, 87, 140),
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  height: 10,
+                  width: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
                     color: Colors.pink,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 10,
-                  width: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.pinkAccent,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 10,
-                  width: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.pinkAccent,
                   ),
                 ),
               ],
@@ -85,7 +85,7 @@ class SplashScreen3 extends StatelessWidget {
                     // Todo: call next page — navigate to SplashScreen2
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => s3.SplashScreen3()),
+                      MaterialPageRoute(builder: (context) => const.login.LoginPage()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
