@@ -41,6 +41,37 @@ class SplashScreen1 extends StatelessWidget {
                 color: Colors.pink
               ),
             ),
+            //membuat tiga bulat kecil
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 10,
+                  width: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.pink,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  height: 10,
+                  width: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.pinkAccent,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  height: 10,
+                  width: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.pinkAccent,
+                  ),
+                ),
           ],
         ),
       ),
