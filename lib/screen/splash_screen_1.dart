@@ -34,12 +34,13 @@ class SplashScreen1 extends StatelessWidget {
             ), 
             SizedBox(height: 10),
             Text(
-              "Jangan lupa membawa dompet digital\n   Ketika kamu belanaja online, oke ?" ,
+              "Forget to bring your wallet\nWhen you are shopping. " ,
               style: TextStyle(
                 fontSize: 12.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.pink
               ),
+              textAlign: TextAlign.center,
             ),
             //membuat tiga bulat kecil
             SizedBox(height: 20),
@@ -101,7 +102,17 @@ class SplashScreen1 extends StatelessWidget {
               ),
             ),
             SizedBox(height: 40),
-          ] 
+            
+            const Text(
+              "1123150125",
+              style: TextStyle(
+                fontSize: 10.0,
+                color: Colors.grey, // warna abu pudar
+                fontWeight: FontWeight.w400,
+              ),
+            ),
+            const SizedBox(height: 10),
+          ], 
        ),
      ),
    );

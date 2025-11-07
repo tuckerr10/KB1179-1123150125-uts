@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: '1123150125, Moh Frendy Aprianto',
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
       ),
   home: const SplashScreen1(),
     );
