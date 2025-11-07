@@ -16,6 +16,16 @@ class SplashScreen1 extends StatelessWidget {
             Container(
               width: 230,
               height: 230,
+
+              //membuat image bulat
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.pink,
+                image: DecorationImage(
+                  image: AssetImage('assets/images/image1.jpeg'),
+                  fit: BoxFit.cover,
+                ),
+              ),
             )
           ],
         ),
