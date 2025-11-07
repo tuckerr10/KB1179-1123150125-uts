@@ -26,7 +26,21 @@ class SplashScreen1 extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-            )
+            ),
+            SizedBox(height: 20),
+            Text(
+              "Welcome",
+              style: TextStyle(fontSize: 20.0 , fontWeight: FontWeight.bold),
+            ), 
+            SizedBox(height: 10),
+            Text(
+              "jangan lupa membawa dompet digital\n Ketika kamu belanaja online ?" ,
+              style: TextStyle(
+                fontSize: 12.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.pink
+              ),
+            ),
           ],
         ),
       ),
