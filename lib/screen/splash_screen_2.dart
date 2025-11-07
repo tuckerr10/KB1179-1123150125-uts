@@ -22,7 +22,7 @@ class SplashScreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.pink,
                 image: DecorationImage(
-                  image: AssetImage('assets/images/image1.jpeg'),
+                  image: AssetImage('assets/images/image2.jpeg'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -34,7 +34,7 @@ class SplashScreen2 extends StatelessWidget {
             ), 
             SizedBox(height: 10),
             Text(
-              "jangan lupa membawa dompet digital\n Ketika kamu belanaja online ?" ,
+              "Jangan lupa membawa dompet digital\n   Ketika kamu belanaja online ?" ,
               style: TextStyle(
                 fontSize: 12.0,
                 fontWeight: FontWeight.bold,
@@ -51,7 +51,7 @@ class SplashScreen2 extends StatelessWidget {
                   width: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.pink,
+                    color: Colors.pinkAccent,
                   ),
                 ),
                 SizedBox(width: 10),
@@ -60,7 +60,7 @@ class SplashScreen2 extends StatelessWidget {
                   width: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.pinkAccent,
+                    color: Colors.pink,
                   ),
                 ),
                 SizedBox(width: 10),

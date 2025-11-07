@@ -34,7 +34,7 @@ class SplashScreen1 extends StatelessWidget {
             ), 
             SizedBox(height: 10),
             Text(
-              "jangan lupa membawa dompet digital\n Ketika kamu belanaja online ?" ,
+              "Jangan lupa membawa dompet digital\n   Ketika kamu belanaja online ?" ,
               style: TextStyle(
                 fontSize: 12.0,
                 fontWeight: FontWeight.bold,
